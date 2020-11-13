@@ -1,0 +1,76 @@
+img{
+    width: 10%;
+    height: 30%;
+}
+td{
+    width: 5%;
+    height: 5%;
+}
+p{
+    -webkit-user-modify: read-write;
+}
+h1{
+    font-size: 3vw;
+}
+.nmet{
+    background-color: lightgreen;
+    border: 2px black solid;
+}
+.gaznbl{
+    background-color: lightblue;
+    border: 2px black solid;
+}
+.alcalins{
+    background-color: lightcoral;
+    border: 2px black solid;
+}
+.alct{
+    background-color: beige;
+    border: 2px black solid;
+}
+.metal{
+    background-color:darkkhaki;
+    border: 2px black solid;
+}
+.halo{
+    background-color: yellow;
+    border: 2px black solid;
+}
+.metp{
+    background-color: lightgray;
+    border: 2px black solid;
+}
+.mett{
+    background-color: pink;
+    border: 2px black solid;
+}
+.lan{
+    background-color: rgb(214, 106, 166);
+    border: 2px solid black;
+}
+.act{
+    background-color: violet;
+    border: 2px solid black;
+}
+.symb{
+    font-weight: bold;
+    text-align: center;
+    font-size: 1vw;
+}
+.num{
+    text-align: left;
+    font-size: 0.5vw;
+    margin: 0;
+}
+.ato{
+    font-size: 0.5vw;
+    margin: 0;
+    text-align: right;
+}
+.head{
+    text-align: center;
+    border: 2px black dotted;
+    padding: 3%;
+    margin: 2%;
+    height: 52%;
+}

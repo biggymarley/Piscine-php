@@ -1,0 +1,55 @@
+html{
+    background: -webkit-linear-gradient(10deg, #921677 33%, #E51720 100%);
+}
+
+body
+{
+    margin: 0;
+    display: flex;
+}
+ul {
+  list-style-type: none;
+  padding: 0;
+  border-radius: 50%;
+  margin: 0;
+  width: 20%;
+  text-align: center;
+} 
+
+
+div{
+    display: none;
+}
+li a {
+    display: block;
+    padding: 20%;
+    font-family:"Courier New", Courier, monospace ;
+    font-family: Impact, Charcoal, sans-serif ;
+    color: rgba(10, 51, 255, 0.365)
+}
+li a:hover, a:focus
+{
+    font-family:"Courier New", Courier, monospace ;
+    background-color: #002afc53 ;
+    border-radius: 5%;
+    border-style: solid;
+    color: whitesmoke;
+}
+
+ul li a:hover + div ,  a:focus  + div{
+    display: block;
+}
+img
+{
+    width: 20%;
+}
+div a
+{
+    background-color:#821a73;
+    border-color: rgba(0, 72, 255, 0.372);
+    border-radius: 5%;
+    border-style: solid;
+    opacity: 0.5;
+    color: white;
+    font-family:"Comic Sans MS", cursive, sans-serif ;
+} 

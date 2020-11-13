@@ -1,0 +1,112 @@
+body {
+  background-color: #505050;
+}
+div.d42 {
+  border-radius: 15px;
+  width: 75%;
+  box-shadow: 10px 10px 5px #1a1a1a;
+  background: #909090;
+  padding: 0.1%;
+  margin: 0 auto;
+}
+
+div.left {
+  border-radius: 15px;
+  width: 5%;
+  box-shadow: 10px 10px 5px #1a1a1a;
+  background: #909090;
+  padding: 1.5%;
+  margin-left: 15%;
+  text-align: center;
+}
+
+div.right {
+  border-radius: 15px;
+  height: 570px;
+  width: 5%;
+  box-shadow: 10px 10px 5px #1a1a1a;
+  background: #909090;
+  padding: 1.5%;
+  margin-right: -62.2%;
+  margin-top: -25.8%;
+  float: right;
+  text-align: center;
+}
+
+img.d42 {
+  width: 35%;
+  margin-left: 0.6%;
+  margin-top: 0.6%;
+}
+
+div.loupe {
+  float: right;
+  width: 20%;
+}
+.loupe {
+  width: 90%;
+  margin-top: 1%;
+}
+.reload {
+  float: right;
+  width: 8%;
+  margin-right: 2%;
+  margin-top: -3%;
+}
+.exit {
+  float: right;
+  width: 8%;
+  margin-right: 2%;
+  margin-top: -19%;
+}
+.left-items {
+  width: 80%;
+  padding-bottom: 5%;
+}
+.eye {
+  border-radius: 5px;
+  border: 6px solid red;
+}
+div.briks {
+  background-image: url(resources/brick.jpg);
+  zoom: 1.5;
+  height: 70px;
+  width: 120px;
+  margin-left: -20%;
+}
+div.cluster {
+  border-radius: 15px;
+  background-color: #909090;
+  background-size: 115%;
+  float: right;
+  border: 10px solid #909090;
+  box-shadow: 10px 10px 5px #1a1a1a;
+  margin-right: -5%;
+  width: 1020px;
+  zoom: 1.3;
+  height: 659px;
+}
+.green-layout {
+  border-radius: 15px;
+  box-shadow: 10px 10px 5px #1a1a1a;
+  background: #88ff89;
+  width: 30%;
+  margin-left: 10%;
+  margin-top: 4.5%;
+  position: absolute;
+  padding-left: 0.7%;
+  padding-bottom: 3%;
+  padding-top: 0.4%;
+  line-height: 30%;
+}
+.big-text {
+  font-size: 230%;
+  font-family: "Times New Roman", Times, serif;
+}
+p.text {
+  font-size: 160%;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.shadow {
+  text-shadow: 10px 6px 6px red;
+}

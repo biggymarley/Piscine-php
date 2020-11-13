@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Tableau de mendeleiev</title>
+    </head>
+    <style>
+        img{
+            width: 10%;
+            height: 100px;
+        }
+        td{
+            width: 5%;
+            height: 60px;
+        }
+        p{
+            -webkit-user-modify: read-write;
+        }
+        .nmet{
+            background-color: lightgreen;
+            border: 2px black solid;
+        }
+        .gaznbl{
+            background-color: lightblue;
+            border: 2px black solid;
+        }
+        .alcalins{
+            background-color: lightcoral;
+            border: 2px black solid;
+        }
+        .alct{
+            background-color: beige;
+            border: 2px black solid;
+        }
+        .metal{
+            background-color:darkkhaki;
+            border: 2px black solid;
+        }
+        .halo{
+            background-color: yellow;
+            border: 2px black solid;
+        }
+        .metp{
+            background-color: lightgray;
+            border: 2px black solid;
+        }
+        .mett{
+            background-color: pink;
+            border: 2px black solid;
+        }
+        .lan{
+            background-color: rgb(214, 106, 166);
+            border: 2px solid black;
+        }
+        .act{
+            background-color: violet;
+            border: 2px solid black;
+        }
+        .symb{
+            font-weight: bold;
+            text-align: center;
+        }
+        .num{
+            text-align: left;
+            font-size: 40%;
+            margin: 0;
+        }
+        .ato{
+            font-size: 40%;
+            margin: 0;
+            text-align: right;
+        }
+        .head{
+            text-align: center;
+            border: 2px black dotted;
+            padding: 3%;
+            margin: 2%;
+        }
+    </style>
+    <body>
+        <header class="head">
+            <h1>Periodic Table of The Elements</h1>
+            <img src="https://www.pngkey.com/png/full/269-2693294_flute-images-rastaman-cartoosn.png" alt="Dmitri Mendeleïev">
+        </header>
+        <table style="width: 100%; margin-top: 5%;">
+            <tr>
+                <td class="nmet"><p class="ato">1.008</p><p class="symb">H</p><p class="num">1</p></td>
+                <td colspan="16"></td>
+                <td class="gaznbl"><p class="ato">4.003</p><p class="symb">He</p><p class="num">2</p></td>
+            </tr>
+            <tr>
+                <td class="alcalins"><p class="ato">6.941</p><p class="symb">Li</p><p class="num">3</p></td>
+                <td class="alct"><p class="ato">9.012</p><p class="symb">Be</p><p class="num">4</p></td>
+                <td colspan="10"></td>
+                <td class="metal"><p class="ato">10.811</p><p class="symb">B</p><p class="num">5</p></td>
+                <td class="nmet"><p class="ato">12.011</p><p class="symb">C</p><p class="num">6</p></td>
+                <td class="nmet"><p class="ato">14.007</p><p class="symb">N</p><p class="num">7</p></td>
+                <td class="nmet"><p class="ato">15.999</p><p class="symb">O</p><p class="num">8</p></td>
+                <td class="halo"><p class="ato">18.998</p><p class="symb">F</p><p class="num">9</p></td>
+                <td class="gaznbl"><p class="ato">20.180</p><p class="symb">Ne</p><p class="num">10</p></td>
+            </tr>
+            <tr>
+                <td class="alcalins"><p class="ato">22.99</p><p class="symb">Na</p><p class="num">11</p></td>
+                <td class="alct"><p class="ato">24.305</p><p class="symb">Mg</p><p class="num">12</p></td>
+                <td colspan="10"></td>
+                <td class="metp"><p class="ato">26.982</p><p class="symb">Al</p><p class="num">13</p></td>
+                <td class="metal"><p class="ato">28.086</p><p class="symb">Si</p><p class="num">14</p></td>
+                <td class="nmet"><p class="ato">30.974</p><p class="symb">P</p><p class="num">15</p></td>
+                <td class="nmet"><p class="ato">32.066</p><p class="symb">S</p><p class="num">16</p></td>
+                <td class="halo"><p class="ato">35.453</p><p class="symb">Cl</p><p class="num">17</p></td>
+                <td class="gaznbl"><p class="ato">39.948</p><p class="symb">Ar</p><p class="num">18</p></td>
+            </tr>
+            <tr>
+                <td class="alcalins"><p class="ato">39.098</p><p class="symb">K</p><p class="num">19</p></td>
+                <td class="alct"><p class="ato">40.078</p><p class="symb">Ca</p><p class="num">20</p></td>
+                <td class="mett"><p class="ato">44.956</p><p class="symb">Sc</p><p class="num">21</p></td>
+                <td class="mett"><p class="ato">47.867</p><p class="symb">Ti</p><p class="num">22</p></td>
+                <td class="mett"><p class="ato">50.942</p><p class="symb">V</p><p class="num">23</p></td>
+                <td class="mett"><p class="ato">51.996</p><p class="symb">Cr</p><p class="num">24</p></td>
+                <td class="mett"><p class="ato">54.938</p><p class="symb">Mn</p><p class="num">25</p></td>
+                <td class="mett"><p class="ato">55.845</p><p class="symb">Fe</p><p class="num">26</p></td>
+                <td class="mett"><p class="ato">58.933</p><p class="symb">Co</p><p class="num">27</p></td>
+                <td class="mett"><p class="ato">58.693</p><p class="symb">Ni</p><p class="num">28</p></td>
+                <td class="mett"><p class="ato">63.546</p><p class="symb">Cu</p><p class="num">29</p></td>
+                <td class="mett"><p class="ato">65.38</p><p class="symb">Zn</p><p class="num">30</p></td>
+                <td class="metp"><p class="ato">69.723</p><p class="symb">Ga</p><p class="num">31</p></td>
+                <td class="metal"><p class="ato">72.631</p><p class="symb">Ge</p><p class="num">32</p></td>
+                <td class="metal"><p class="ato">74.922</p><p class="symb">As</p><p class="num">33</p></td>
+                <td class="nmet"><p class="ato">78.971</p><p class="symb">Se</p><p class="num">34</p></td>
+                <td class="halo"><p class="ato">79.904</p><p class="symb">Br</p><p class="num">35</p></td>
+                <td class="gaznbl"><p class="ato">83.789</p><p class="symb">Kr</p><p class="num">36</p></td>
+            </tr>
+            <tr>
+                <td class="alcalins"><p class="ato">85.468</p><p class="symb">Rb</p><p class="num">37</p></td>
+                <td class="alct"><p class="ato">87.62</p><p class="symb">Sr</p><p class="num">38</p></td>
+                <td class="mett"><p class="ato">88.906</p><p class="symb">Y</p><p class="num">39</p></td>
+                <td class="mett"><p class="ato">91.224</p><p class="symb">Zr</p><p class="num">40</p></td>
+                <td class="mett"><p class="ato">92.906</p><p class="symb">Nb</p><p class="num">41</p></td>
+                <td class="mett"><p class="ato">95.95</p><p class="symb">Mo</p><p class="num">42</p></td>
+                <td class="mett"><p class="ato">98.907</p><p class="symb">Tc</p><p class="num">43</p></td>
+                <td class="mett"><p class="ato">101.07</p><p class="symb">Ru</p><p class="num">44</p></td>
+                <td class="mett"><p class="ato">102.906</p><p class="symb">Rh</p><p class="num">45</p></td>
+                <td class="mett"><p class="ato">106.42</p><p class="symb">Pd</p><p class="num">46</p></td>
+                <td class="mett"><p class="ato">107.868</p><p class="symb">Ag</p><p class="num">47</p></td>
+                <td class="mett"><p class="ato">112.414</p><p class="symb">Cd</p><p class="num">48</p></td>
+                <td class="metp"><p class="ato">114.818</p><p class="symb">In</p><p class="num">49</p></td>
+                <td class="metp"><p class="ato">118.711</p><p class="symb">Sn</p><p class="num">50</p></td>
+                <td class="metal"><p class="ato">121.760</p><p class="symb">Sb</p><p class="num">51</p></td>
+                <td class="metal"><p class="ato">127.6</p><p class="symb">Te</p><p class="num">52</p></td>
+                <td class="halo"><p class="ato">126.904</p><p class="symb">I</p><p class="num">53</p></td>
+                <td class="gaznbl"><p class="ato">131.294</p><p class="symb">Xe</p><p class="num">54</p></td>
+            </tr>
+            <tr>
+                <td class="alcalins"><p class="ato">132.905</p><p class="symb">Cs</p><p class="num">55</p></td>
+                <td class="alct"><p class="ato">137.328</p><p class="symb">Ba</p><p class="num">56</p></td>
+                <td></td>
+                <td class="mett"><p class="ato">178.49</p><p class="symb">Hf</p><p class="num">72</p></td>
+                <td class="mett"><p class="ato">180.948</p><p class="symb">Ta</p><p class="num">73</p></td>
+                <td class="mett"><p class="ato">183.84</p><p class="symb">W</p><p class="num">74</p></td>
+                <td class="mett"><p class="ato">186.207</p><p class="symb">Re</p><p class="num">75</p></td>
+                <td class="mett"><p class="ato">190.23</p><p class="symb">Os</p><p class="num">76</p></td>
+                <td class="mett"><p class="ato">192.217</p><p class="symb">Ir</p><p class="num">77</p></td>
+                <td class="mett"><p class="ato">195.085</p><p class="symb">Pt</p><p class="num">78</p></td>
+                <td class="mett"><p class="ato">196.967</p><p class="symb">Au</p><p class="num">79</p></td>
+                <td class="mett"><p class="ato">200.592</p><p class="symb">Hg</p><p class="num">80</p></td>
+                <td class="metp"><p class="ato">204.383</p><p class="symb">Ti</p><p class="num">81</p></td>
+                <td class="metp"><p class="ato">207.2</p><p class="symb">Pb</p><p class="num">82</p></td>
+                <td class="metp"><p class="ato">208.980</p><p class="symb">Bi</p><p class="num">83</p></td>
+                <td class="metal"><p class="ato">208.982</p><p class="symb">Po</p><p class="num">84</p></td>
+                <td class="halo"><p class="ato">209.987</p><p class="symb">At</p><p class="num">85</p></td>
+                <td class="gaznbl"><p class="ato">222.018</p><p class="symb">Rn</p><p class="num">86</p></td>
+            </tr>
+            <tr>
+                <td class="alcalins"><p class="ato">223.020</p><p class="symb">Fr</p><p class="num">87</p></td>
+                <td class="alct"><p class="ato">226.025</p><p class="symb">Hg</p><p class="num">88</p></td>
+                <td></td>
+                <td class="mett"><p class="ato">261</p><p class="symb">Rf</p><p class="num">104</p></td>
+                <td class="mett"><p class="ato">262</p><p class="symb">Db</p><p class="num">105</p></td>
+                <td class="mett"><p class="ato">266</p><p class="symb">Sg</p><p class="num">106</p></td>
+                <td class="mett"><p class="ato">264</p><p class="symb">Bh</p><p class="num">107</p></td>
+                <td class="mett"><p class="ato">269</p><p class="symb">Hs</p><p class="num">108</p></td>
+                <td class="mett"><p class="ato">278</p><p class="symb">Mt</p><p class="num">109</p></td>
+                <td class="mett"><p class="ato">281</p><p class="symb">Ds</p><p class="num">110</p></td>
+                <td class="mett"><p class="ato">280</p><p class="symb">Rg</p><p class="num">111</p></td>
+                <td class="mett"><p class="ato">285</p><p class="symb">Cn</p><p class="num">112</p></td>
+                <td class="metp"><p class="ato">286</p><p class="symb">Nh</p><p class="num">113</p></td>
+                <td class="metp"><p class="ato">289</p><p class="symb">Fi</p><p class="num">114</p></td>
+                <td class="metp"><p class="ato">286</p><p class="symb">Mc</p><p class="num">115</p></td>
+                <td class="metp"><p class="ato">293</p><p class="symb">Lv</p><p class="num">116</p></td>
+                <td class="halo"><p class="ato">294</p><p class="symb">Ts</p><p class="num">117</p></td>
+                <td class="gaznbl"><p class="ato">294</p><p class="symb">Og</p><p class="num">118</p></td>
+            </tr>
+            <tr>
+                <td colspan="3"></td>
+                <td class="lan"><p class="ato">138.905</p><p class="symb">La</p><p class="num">57</p></td>
+                <td class="lan"><p class="ato">140.116</p><p class="symb">Ce</p><p class="num">58</p></td>
+                <td class="lan"><p class="ato">140.908</p><p class="symb">Pr</p><p class="num">59</p></td>
+                <td class="lan"><p class="ato">144.243</p><p class="symb">Nd</p><p class="num">60</p></td>
+                <td class="lan"><p class="ato">144.913</p><p class="symb">Pm</p><p class="num">61</p></td>
+                <td class="lan"><p class="ato">150.36</p><p class="symb">Sm</p><p class="num">62</p></td>
+                <td class="lan"><p class="ato">151.964</p><p class="symb">Eu</p><p class="num">63</p></td>
+                <td class="lan"><p class="ato">157.25</p><p class="symb">Gd</p><p class="num">64</p></td>
+                <td class="lan"><p class="ato">158.925</p><p class="symb">Tb</p><p class="num">65</p></td>
+                <td class="lan"><p class="ato">162.500</p><p class="symb">Dy</p><p class="num">66</p></td>
+                <td class="lan"><p class="ato">164.930</p><p class="symb">Ho</p><p class="num">67</p></td>
+                <td class="lan"><p class="ato">167.259</p><p class="symb">Er</p><p class="num">68</p></td>
+                <td class="lan"><p class="ato">168.934</p><p class="symb">Tm</p><p class="num">69</p></td>
+                <td class="lan"><p class="ato">173.055</p><p class="symb">Yb</p><p class="num">70</p></td>
+                <td class="lan"><p class="ato">174.967</p><p class="symb">Lu</p><p class="num">71</p></td>
+            </tr>
+            <tr>
+                <td colspan="3"></td>
+                <td class="act"><p class="ato">227.028</p><p class="symb">Ac</p><p class="num">89</p></td>
+                <td class="act"><p class="ato">232.038</p><p class="symb">Th</p><p class="num">90</p></td>
+                <td class="act"><p class="ato">231.036</p><p class="symb">Pa</p><p class="num">91</p></td>
+                <td class="act"><p class="ato">238.029</p><p class="symb">U</p><p class="num">92</p></td>
+                <td class="act"><p class="ato">237.048</p><p class="symb">Np</p><p class="num">93</p></td>
+                <td class="act"><p class="ato">244.064</p><p class="symb">Pu</p><p class="num">94</p></td>
+                <td class="act"><p class="ato">243.061</p><p class="symb">Am</p><p class="num">95</p></td>
+                <td class="act"><p class="ato">247.070</p><p class="symb">Cm</p><p class="num">96</p></td>
+                <td class="act"><p class="ato">247.070</p><p class="symb">Bk</p><p class="num">97</p></td>
+                <td class="act"><p class="ato">251.080</p><p class="symb">Cf</p><p class="num">98</p></td>
+                <td class="act"><p class="ato">254</p><p class="symb">Es</p><p class="num">99</p></td>
+                <td class="act"><p class="ato">257.095</p><p class="symb">Fm</p><p class="num">100</p></td>
+                <td class="act"><p class="ato">258.1</p><p class="symb">Md</p><p class="num">101</p></td>
+                <td class="act"><p class="ato">259.101</p><p class="symb">No</p><p class="num">102</p></td>
+                <td class="act"><p class="ato">262</p><p class="symb">Lr</p><p class="num">103</p></td>
+            </tr>
+        </table>
+    </body>
+</html>
