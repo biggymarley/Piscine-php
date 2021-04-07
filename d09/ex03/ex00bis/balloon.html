@@ -1,0 +1,59 @@
+<html>
+  <head>
+    <title>ballon</title>
+  </head>
+  <style>
+    #ballon {
+      height: 200px;
+      width: 200px;
+      background-color: red;
+      border-radius: 50%;
+      margin-top: 35%;
+    }
+    body
+    {
+        background: -webkit-linear-gradient(0, #ffffff 33%, #00000077 100%);
+    }
+  </style>
+  <script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
+  <script>
+
+    $(document).ready(function(){
+        $('#ballon').click(function(){
+            var color = $('#ballon').css("background-color");
+            var width = parseInt($('#ballon').css("width"));
+            var height = parseInt($('#ballon').css("height"));
+            var  nw = width == 420 ? 200 : width + 10;
+            var  nh = height == 420 ? 200 : height + 10;
+            $('#ballon').css("width", nw);
+            $('#ballon').css("height", nh);
+            console.log(nw);
+            if(color  == 'rgb(0, 128, 0)')
+                $('#ballon').css("background-color" , "blue");
+            else if (color == 'rgb(0, 0, 255)' )
+                $('#ballon').css("background-color" , "red");
+            else
+                $('#ballon').css("background-color" , "green");
+        });
+        $('#ballon').mouseout(function(){
+            var color = $('#ballon').css("background-color");
+            var width = parseInt($('#ballon').css("width"));
+            var height = parseInt($('#ballon').css("height"));
+            var  nw = width > 200 ? width - 5 : 200;
+            var  nh = height > 200 ? height - 5 : 200;
+            $('#ballon').css("width", nw);
+            $('#ballon').css("height", nh);
+            console.log(nw);
+            if(color  == 'rgb(0, 128, 0)')
+                $('#ballon').css("background-color" , "red");
+            else if (color == 'rgb(0, 0, 255)' )
+                $('#ballon').css("background-color" , "green");
+            else
+                $('#ballon').css("background-color" , "blue"); 
+        });
+    });
+  </script>
+  <body>
+      <center><div id="ballon"></div></center>
+  </body>
+</html>

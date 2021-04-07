@@ -1,0 +1,48 @@
+<html>
+  <head>
+    <title>ballon</title>
+  </head>
+  <style>
+    #ballon {
+      height: 200px;
+      width: 200px;
+      background: red;
+      border-radius: 50%;
+      margin-top: 35%;
+    }
+    body
+    {
+        background: -webkit-linear-gradient(0, #ffffff 33%, #00000077 100%);
+    }
+  </style>
+  <script type="text/javascript">
+    function addsize() {
+      var bal = document.getElementById("ballon");
+      bal.style.height = bal.offsetHeight == 420 ? 200 : bal.offsetHeight + 10;
+      bal.style.width = bal.offsetWidth == 420 ? 200 : bal.offsetWidth + 10;
+      if (bal.style.background === "green") {
+       
+        bal.style.background = "blue";
+      } else if (bal.style.background === "blue") {
+        bal.style.background = "red";
+      } else {
+        bal.style.background = "green";
+      }
+    }
+    function out() {
+      var bal = document.getElementById("ballon");
+      bal.style.height = bal.offsetHeight > 200 ? bal.offsetHeight - 5 : 200;
+      bal.style.width = bal.offsetWidth > 200 ? bal.offsetWidth - 5 : 200;
+      if (bal.style.background === "green") {
+        bal.style.background = "red";
+      } else if (bal.style.background === "blue") {
+        bal.style.background = "green";
+      } else {
+        bal.style.background = "blue";
+      }
+    }
+  </script>
+  <body>
+      <center><div id="ballon" onclick="addsize()" onmouseout="out()"></div></center>
+  </body>
+</html>

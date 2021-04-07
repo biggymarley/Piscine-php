@@ -1,0 +1,55 @@
+<html>
+  <head>
+    <title>Todo List</title>
+    <script src="todo.js"></script>
+    <style>
+      body {
+        margin: 0;
+        background: -webkit-linear-gradient(120deg, #29b3ff 45%, #db820d 60%);
+      }
+      #ft_list {
+        width: 100%;
+        height: 100%;
+        background: #4053e64b;
+      }
+      label {
+        display: block;
+        width: 400px;
+        height: 60px;
+        border-radius: 20px;
+        border-style: solid;
+        font-size: large;
+        background-color: #38b0f2;
+        text-align: center;
+        padding-top: 30px;
+        margin-top: 10px;
+      }
+      input {
+        width: 500px;
+        height: 90px;
+        font-size: 50px;
+        font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+          sans-serif;
+        border-radius: 20px;
+        background: #583afc;
+        border-style: none;
+        outline: none;
+        margin-top: 10px;
+        margin-bottom: 50px;
+      }
+      input:hover,
+      input:active {
+        background: #8738f2;
+        color: snow;
+      }
+    </style>
+  </head>
+  <body>
+    <center>
+      <input type="button" value="New" onclick="add()" />
+    </center>
+    <center>
+      <div id="ft_list"></div>
+    </center>
+  </body>
+</html>

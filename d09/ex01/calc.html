@@ -1,0 +1,94 @@
+<html>
+  <head>
+    <title>Calculator</title>
+    <style>
+      input , select{
+        padding: 2%;
+        border-radius: 20px;
+        margin: 1%;
+        border-style: solid;
+        text-align: center;
+        color: seashell;
+        font-size: large;
+        background-color: rgba(0, 0, 139, 0.192);
+        outline: none;
+      }
+      body{
+        background: -webkit-linear-gradient(120deg, #29b3ff 45%, #db820d 60%);
+      }
+    </style>
+    <script>
+    setInterval(function() { alert("Please, use me..."); }, 30 * 1000);
+      function add(num1, num2) {
+        var sum = num1 + num2;
+        console.log(sum);
+        return sum;
+      }
+      function sus(num1, num2) {
+        var sum = num1 - num2;
+        console.log(sum);
+        return sum;
+      }
+      function fi(num1, num2) {
+        var sum = num1 * num2;
+        console.log(sum);
+        return sum;
+      }
+      function kis(num1, num2) {
+        if (num2 == 0) {
+          console.log("error");
+          return "error";
+        } else {
+          var sum = num1 / num2;
+          console.log(sum);
+          return sum;
+        }
+      }
+      function mod(num1, num2) {
+        if (num2 == 0) {
+          console.log("error");
+          return "error";
+        } else {
+          var sum = num1 % num2;
+          console.log(sum);
+          return sum;
+        }
+      }
+      function calcule() {
+        var numl = new Number(document.getElementById("inl").value.trim());
+        var numr = new Number(document.getElementById("inr").value.trim());
+        var op = document.getElementById("op").value;
+        if (numr >= 0 && numr >= 0) {
+          if (op === "+") alert(add(numr, numl));
+          else if (op === "-") alert(sus(numr, numl));
+          else if (op === "*") alert(fi(numr, numl));
+          else if (op === "/") alert(kis(numr, numl));
+          else if (op === "%") alert(mod(numr, numl));
+        } else {
+          console.log("error");
+          alert("error");
+        }
+      }
+    </script>
+  </head>
+  <body>
+    <center>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+      <input type="text" id="inr" />
+      <select id="op">
+        <option value="+">+</option>
+        <option value="/">/</option>
+        <option value="-">-</option>
+        <option value="*">*</option>
+        <option value="%">%</option>
+      </select>
+      <input type="text" id="inl" />
+      <input type="submit" value="Try me!" onclick="calcule()" />
+    </center>
+  </body>
+</html>
